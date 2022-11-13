@@ -21,3 +21,26 @@ export const sliderItems = [
     bg: "#FFD6CE",
   },
 ];
+
+export const categories = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg",
+    title: "ACCESSORIES"
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/9145975/pexels-photo-9145975.jpeg",
+    title: "OFFICE WEAR"
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/2766408/pexels-photo-2766408.jpeg",
+    title: "JACKETS"
+  },
+  // {
+  //   id: 4,
+  //   img: "https://images.pexels.com/photos/3119215/pexels-photo-3119215.jpeg",
+  //   title: "DECEMBER COLLECTION"
+  // }
+];
