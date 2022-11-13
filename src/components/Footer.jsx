@@ -5,7 +5,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import MarkunreadIcon from "@mui/icons-material/Markunread";
-import { SafetyCheck } from "@mui/icons-material";
 
 const Container = styled.div`
   display: flex;
@@ -82,7 +81,6 @@ const IconSpacer = styled.div`
 `;
 
 const CreditContainer = styled.div`
-  width: 100%;
   height: 100%;
   padding: 10px;
   display: flex;
@@ -90,6 +88,7 @@ const CreditContainer = styled.div`
   align-content: center;
   background-color: black;
   color: white;
+  flex-wrap: wrap;
 
   a {
     text-decoration: none;
