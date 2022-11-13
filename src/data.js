@@ -29,12 +29,12 @@ export const categories = [
     title: "ACCESSORIES"
   },
   {
-    id: 3,
+    id: 2,
     img: "https://images.pexels.com/photos/9145975/pexels-photo-9145975.jpeg",
     title: "OFFICE WEAR"
   },
   {
-    id: 2,
+    id: 3,
     img: "https://images.pexels.com/photos/2766408/pexels-photo-2766408.jpeg",
     title: "JACKETS"
   },
@@ -43,4 +43,27 @@ export const categories = [
   //   img: "https://images.pexels.com/photos/3119215/pexels-photo-3119215.jpeg",
   //   title: "DECEMBER COLLECTION"
   // }
+];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: "https://i.imgur.com/rIKLhZw.png",
+    title: "ACCESSORIES"
+  },
+  {
+    id: 2,
+    img: "https://i.imgur.com/rIKLhZw.png",
+    title: "OFFICE WEAR"
+  },
+  {
+    id: 3,
+    img: "https://i.imgur.com/rIKLhZw.png",
+    title: "JACKETS"
+  },
+  {
+    id: 4,
+    img: "https://i.imgur.com/rIKLhZw.png",
+    title: "DECEMBER COLLECTION"
+  }
 ];
