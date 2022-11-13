@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 30px;
-  background-color: teal;
+  background-color: #1eb2d3;
   color: white;
   display: flex;
   justify-content: center;
@@ -12,5 +12,5 @@ const Container = styled.div`
 `;
 
 export const Announcements = () => {
-  return <Container>Super Deal! Free Shipping on Orders Over $50</Container>;
+  return <Container>This site is a demo site and do not sell any products!</Container>;
 };

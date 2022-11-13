@@ -28,13 +28,17 @@ const Left = styled.div`
 const Language = styled.span`
   font-size: 14;
   cursor: pointer;
+  display: none;  //May Need To Enable This
   @media only screen and (max-width: 380px) {
     display: none;
   }
 `;
 
 const SearchContainer = styled.div`
-  border: 0.5px solid lightgray;
+  border: none;
+  border-bottom: 1px solid #010407;
+  padding: 5px 10px;
+  outline: none;
   display: flex;
   align-items: center;
   margin-left: 25px;
@@ -99,13 +103,13 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>.Brand</Logo>
+          <Logo>.BrandJ</Logo>
         </Center>
         <Right>
           <MenuItem>Register</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={16} color="primary">
               <ShoppingCartOutlinedIcon />
             </Badge>
           </MenuItem>

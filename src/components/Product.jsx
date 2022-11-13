@@ -72,9 +72,9 @@ export const Product = ({ item }) => {
         <Icon>
           <LocalMallOutlinedIcon />
         </Icon>
-        <Icon>
+        {/* <Icon>
           <SearchOutlinedIcon />
-        </Icon>
+        </Icon> */}
         <Icon>
           <FavoriteBorderOutlinedIcon />
         </Icon>
