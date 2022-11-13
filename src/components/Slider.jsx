@@ -96,7 +96,7 @@ const Slider = () => {
 
   setInterval(() => {
     setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
-  }, 6000);
+  }, 5000);
 
   return (
     <Container>
