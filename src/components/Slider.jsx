@@ -6,7 +6,7 @@ import { sliderItems } from "../data";
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   /* background-color: coral; */
   position: relative;
@@ -84,6 +84,10 @@ const Slider = () => {
       setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
     }
   };
+
+  setInterval(() => {
+    setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
+  }, 6000);
 
   return (
     <Container>
