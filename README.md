@@ -8,6 +8,8 @@ ecommerce-frontend is a React based fully responsive frontend designed as part o
 
 Note: Most of the routing is commented out on App.js for my personal needs...
 
+OPEN FOR SUGGESTIONS!!!
+
 => All image credits goes to respective owners
 
 ## Installation
