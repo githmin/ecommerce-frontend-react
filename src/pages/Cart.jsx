@@ -9,6 +9,9 @@ import RemoveIcon from "@mui/icons-material/Remove";
 const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 20px;
+  @media only screen and (max-width: 380px) {
+    padding: 10px;
+  }
 `;
 const Title = styled.h1`
   font-weight: 200px;
@@ -35,10 +38,17 @@ const TopText = styled.span`
   text-decoration: underline;
   cursor: pointer;
   margin: 0px 10px;
+  @media only screen and (max-width: 380px) {
+    display: none;
+  }
 `;
 const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 380px) {
+    flex-direction: column;
+  }
 `;
 const Info = styled.div`
   flex: 3;
@@ -53,6 +63,9 @@ const Summary = styled.div`
 
 const Product = styled.div`
   display: flex;
+  @media only screen and (max-width: 380px) {
+    flex-direction: column;
+  }
 `;
 const ProductDetails = styled.div`
   flex: 2;
@@ -90,11 +103,17 @@ const ProductAmountContianer = styled.div`
 const ProductAmount = styled.div`
   font-size: 24px;
   margin: 5px;
+  @media only screen and (max-width: 380px) {
+    margin: 5px 15px;
+  }
 `;
 const ProductPrice = styled.div`
   font-size: 30px;
   text-wrap: 200px;
   margin-bottom: 20px;
+  @media only screen and (max-width: 380px) {
+    margin-bottom: 20px;
+  }
 `;
 
 const Hr = styled.hr`
@@ -213,7 +232,7 @@ const Cart = () => {
               <SummeryItemText>Total</SummeryItemText>
               <SummeryItemPrice>$ 60.99</SummeryItemPrice>
             </SummaryItem>
-            <Button>CheckOut Now!</Button>
+            <Button>Check Out Now!</Button>
           </Summary>
         </Bottom>
       </Wrapper>

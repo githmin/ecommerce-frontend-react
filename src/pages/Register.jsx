@@ -16,6 +16,9 @@ const Wrapper = styled.div`
   padding: 20px;
   width: 40%;
   background-color: white;
+  @media only screen and (max-width: 380px) {
+    width: 75%;
+}
 `;
 const Title = styled.h1`
   font-size: 24px;
@@ -57,7 +60,7 @@ const Register = () => {
           <Input placeholder="Password" />
           <Input placeholder="Confirm Password" />
           <Agreement>
-            By creating an account, i consent to the processing of my personal
+            By creating an account, I consent to the processing of my personal
             data in accordance with the <b>Privacy Policy</b>
           </Agreement>
           <Button>Create Account</Button>

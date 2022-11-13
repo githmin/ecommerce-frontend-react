@@ -13,6 +13,10 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (max-width: 380px) {
+    padding: 10px 0px;
+  }
 `;
 
 const Left = styled.div`
@@ -24,6 +28,9 @@ const Left = styled.div`
 const Language = styled.span`
   font-size: 14;
   cursor: pointer;
+  @media only screen and (max-width: 380px) {
+    display: none;
+  }
 `;
 
 const SearchContainer = styled.div`
@@ -31,15 +38,26 @@ const SearchContainer = styled.div`
   display: flex;
   align-items: center;
   margin-left: 25px;
-  padding: 5px;
+  padding: px;
+
+  @media only screen and (max-width: 380px) {
+    border: none;
+  }
 `;
 
 const Input = styled.input`
   border: none;
+  @media only screen and (max-width: 380px) {
+    width: 45px;
+  }
 `;
 
 const Logo = styled.h1`
   font-weight: bold;
+
+  @media only screen and (max-width: 380px) {
+    font-size: 24px;
+  }
 `;
 
 const Center = styled.div`
@@ -51,6 +69,10 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
+  @media only screen and (max-width: 380px) {
+    font-size: 12px;
+    margin-left: 10px;
+  }
 `;
 
 const Right = styled.div`
@@ -58,6 +80,11 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media only screen and (max-width: 380px) {
+    justify-content: center;
+    flex: 2;
+  }
 `;
 
 const Navbar = () => {
@@ -67,7 +94,7 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input></Input>
+            <Input placeholder="Search"></Input>
             <Search style={{ color: "grey", fontsize: 16 }}></Search>
           </SearchContainer>
         </Left>

@@ -8,6 +8,9 @@ import MarkunreadIcon from "@mui/icons-material/Markunread";
 
 const Container = styled.div`
   display: flex;
+  @media only screen and (max-width: 380px) {
+    flex-direction: column;
+  }
 `;
 const Left = styled.div`
   flex: 1;
@@ -41,6 +44,10 @@ const SocialIcon = styled.h1`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+
+  @media only screen and (max-width: 380px) {
+    display: none;
+  }
 `;
 
 const Title = styled.h3`
@@ -125,7 +132,7 @@ const Footer = () => {
         </Center>
 
         <Right>
-          <Title>Contact</Title>
+          <Title>Contact us</Title>
           <ContactItem>
             <LocationOnIcon />
             <IconSpacer />
