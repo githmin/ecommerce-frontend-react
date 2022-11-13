@@ -13,7 +13,7 @@ const Container = styled.div`
   position: relative;
   overflow: hidden;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     display: none;
   }
 `;

@@ -9,7 +9,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 20px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     padding: 10px;
   }
 `;
@@ -38,7 +38,7 @@ const TopText = styled.span`
   text-decoration: underline;
   cursor: pointer;
   margin: 0px 10px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     display: none;
   }
 `;
@@ -46,7 +46,7 @@ const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     flex-direction: column;
   }
 `;
@@ -63,7 +63,7 @@ const Summary = styled.div`
 
 const Product = styled.div`
   display: flex;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     flex-direction: column;
   }
 `;
@@ -103,7 +103,7 @@ const ProductAmountContianer = styled.div`
 const ProductAmount = styled.div`
   font-size: 24px;
   margin: 5px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     margin: 5px 15px;
   }
 `;
@@ -111,7 +111,7 @@ const ProductPrice = styled.div`
   font-size: 30px;
   text-wrap: 200px;
   margin-bottom: 20px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     margin-bottom: 20px;
   }
 `;

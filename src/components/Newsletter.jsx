@@ -14,7 +14,7 @@ const Container = styled.div`
 const Title = styled.h1`
   font-size: 70px;
   margin-bottom: 20px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     font-size: 50px;
   }
 `;
@@ -23,7 +23,7 @@ const Desc = styled.div`
   font-weight: 300;
   margin-bottom: 20px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     text-align: center;
   }
 `;
@@ -35,7 +35,7 @@ const InputContainer = styled.div`
   justify-content: space-between;
   border: 1px solid lightgray;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     width: 80%;
   }
 `;

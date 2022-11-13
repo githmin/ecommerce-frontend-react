@@ -12,7 +12,7 @@ const Image = styled.img`
   height: 100%;
   object-fit: cover;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     height: 20vh;
   }
 `;

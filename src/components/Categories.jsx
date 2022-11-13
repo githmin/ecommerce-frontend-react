@@ -8,7 +8,7 @@ const Container = styled.div`
   display: flex;
     padding: 20px;
     justify-content: space-between;
-    @media only screen and (max-width: 380px) {
+    @media only screen and (max-width: 720px) {
       flex-direction: column;
       padding: 0px;
 }

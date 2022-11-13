@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     padding: 10px 0px;
   }
 `;
@@ -29,7 +29,7 @@ const Language = styled.span`
   font-size: 14;
   cursor: pointer;
   display: none;  //May Need To Enable This
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     display: none;
   }
 `;
@@ -44,14 +44,14 @@ const SearchContainer = styled.div`
   margin-left: 25px;
   padding: px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     border: none;
   }
 `;
 
 const Input = styled.input`
   border: none;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     width: 45px;
   }
 `;
@@ -59,7 +59,7 @@ const Input = styled.input`
 const Logo = styled.h1`
   font-weight: bold;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     font-size: 24px;
   }
 `;
@@ -73,7 +73,7 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     font-size: 12px;
     margin-left: 10px;
   }
@@ -85,7 +85,7 @@ const Right = styled.div`
   align-items: center;
   justify-content: flex-end;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     justify-content: center;
     flex: 2;
   }

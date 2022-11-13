@@ -11,7 +11,7 @@ const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     flex-direction: column;
     padding: 10px;
   }
@@ -25,14 +25,14 @@ const Image = styled.img`
   /* height: 90vh;
   object-fit: cover; */
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     height: 20%;
   }
 `;
 const InfoContainer = styled.div`
   flex: 1;
   padding: 0px 50px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     padding: 10px;
   }
 `;
@@ -53,7 +53,7 @@ const FilterContainer = styled.div`
   width: 50%;
   margin: 30px 0px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     width: 100%;
   }
 `;
@@ -85,7 +85,7 @@ const AddContainer = styled.div`
   width: 50%;
   justify-content: space-between;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     width: 100%;
   }
 `;

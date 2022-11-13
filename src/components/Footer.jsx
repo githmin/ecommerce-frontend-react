@@ -45,7 +45,7 @@ const Center = styled.div`
   flex: 1;
   padding: 20px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     display: none;
   }
 `;

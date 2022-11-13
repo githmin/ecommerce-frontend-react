@@ -16,7 +16,7 @@ const Wrapper = styled.div`
   padding: 20px;
   width: 25%;
   background-color: white;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 720px) {
     width: 75%;
 }
 `;
